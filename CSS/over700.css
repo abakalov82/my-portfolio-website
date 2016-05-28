@@ -1,0 +1,158 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 960px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.content {
+  width: inherit;
+  max-width: inherit;
+}
+
+/*my HEADER goes here*/
+header {
+  border-bottom: 3px solid #bcbbbb;
+  padding-bottom: 10px;
+  max-width: inherit;
+  top: 0;
+}
+
+.logo.frame {
+  width: 16.66%;
+  margin-right: 5px;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.title-frame {
+  width: 100%;
+  text-align: right;
+  vertical-align: bottom;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+.my-name {
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding: inherit;
+}
+
+.job-title {
+  margin-top: 0;
+  font-size: 14px;
+  padding: inherit;
+}
+
+.main-photo {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 0;
+  display: flex;
+}
+
+.featured-work {
+  margin-left: 5px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #6b6b6b;
+}
+
+.featured-work {
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #6b6b6b;
+}
+
+/*my project links go here*/
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.project-instance {
+  width: 33.33%;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.project1, .project2, .project3 {
+  max-width: 100%;
+  margin: 0;
+}
+
+.project1 {
+  float: left;
+  margin-left: -5px;
+}
+
+.project3 {
+  float: right;
+  margin-right: -5px;
+}
+
+.project-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-title {
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.url {
+  width: 100%;
+  font-size: 14px;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*FOOTER is below*/
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  font: 14px arial, sans-serif;
+}
+
+.footer-left {
+  width: 66.66%;
+  text-align: left;
+}
+
+.footer-right {
+  width: 33.33%;
+  text-align: right;
+}

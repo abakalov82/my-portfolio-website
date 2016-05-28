@@ -1,0 +1,149 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 450px;
+}
+
+.page {
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+.content {
+  width: inherit;
+}
+
+/*my header information goes here*/
+/*
+*/
+header {
+  border-bottom: 2px solid #bcbbbb;
+  padding-bottom: 5px;
+  width: 100%;
+  top: 0;
+}
+
+.logo-frame {
+  max-width: 25%;
+}
+
+.logo {
+  max-width: 100%;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 290px) {
+  .logo {
+    margin-right: 200px;
+    margin-left: -200px;
+  }
+}
+
+.title-frame {
+  width: 100%;
+  text-align: right;
+  vertical-align: bottom;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+.my-name {
+  margin-bottom: 0;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.job-title {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+/*CONTENT section begins here*/
+/*
+*/
+.main-photo {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+}
+
+.featured-work {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6b6b6b;
+  font-size: 18px;
+}
+
+/*my project links go here*/
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-instance {
+  width: 100%;
+}
+
+.project1, .project2, .project3 {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 100%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-title {
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.url {
+  width: 100%;
+  font-size: 14px;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*my footer goes here*/
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  font: 12px arial, sans-serif;
+}
+
+.footer-left {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-right {
+  position: fixed;
+  margin: -999px;
+}
